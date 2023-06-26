@@ -1,0 +1,14 @@
+uuid: a754ee59-d1ee-4666-918d-d8ebc2fc8dc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: employee
+label: Employee
+type: 'canonical_entities:user'
+pattern: 'employee/[user:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

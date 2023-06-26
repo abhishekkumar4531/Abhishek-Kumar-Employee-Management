@@ -1,0 +1,20 @@
+uuid: 1571a623-609d-40c3-ac2c-4b596bbbb0b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_user_salary
+field_name: field_user_salary
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

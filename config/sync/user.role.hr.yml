@@ -1,0 +1,17 @@
+uuid: 56898dee-dc81-4120-8bea-5cdf56beb0db
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.salary_status
+  module:
+    - node
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'create salary_status content'
+  - 'delete any salary_status content'
+  - 'delete own salary_status content'
+  - 'edit any salary_status content'

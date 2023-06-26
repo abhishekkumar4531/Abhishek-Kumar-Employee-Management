@@ -1,0 +1,24 @@
+uuid: 38fabe2f-3ff8-4ee9-a5f9-2ed7adf0a795
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.emplyee_data.field_employee_role
+    - field.field.node.emplyee_data.field_select_user
+    - node.type.emplyee_data
+  module:
+    - user
+id: node.emplyee_data.teaser
+targetEntityType: node
+bundle: emplyee_data
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_employee_role: true
+  field_select_user: true
