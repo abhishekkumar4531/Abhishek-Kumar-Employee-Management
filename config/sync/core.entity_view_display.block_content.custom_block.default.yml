@@ -1,0 +1,12 @@
+uuid: 327e144c-f514-4b92-8bd6-1ea30546354d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_block
+id: block_content.custom_block.default
+targetEntityType: block_content
+bundle: custom_block
+mode: default
+content: {  }
+hidden: {  }

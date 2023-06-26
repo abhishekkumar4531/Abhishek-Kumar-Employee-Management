@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 3284febc-7896-478f-8b3d-fbe3a2edba92
+name: 'Local Emloyee Management'
+mail: abhishek.kumar@innoraft.com
+slogan: ''
+page:
+  403: /node/9
+  404: /node/8
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

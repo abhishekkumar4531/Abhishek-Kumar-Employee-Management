@@ -1,0 +1,23 @@
+uuid: 1b998ffa-6c67-4644-871b-550f0633510f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_amount
+    - node.type.salary_status
+id: node.salary_status.field_amount
+field_name: field_amount
+entity_type: node
+bundle: salary_status
+label: Amount
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 1000000.0
+  prefix: 'Rs. '
+  suffix: /-
+field_type: float

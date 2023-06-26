@@ -1,0 +1,17 @@
+uuid: c5a1a7e0-7f9f-4325-97c9-f06c28a24b0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Salary Status'
+type: salary_status
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

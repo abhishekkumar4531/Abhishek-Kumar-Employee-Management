@@ -1,0 +1,37 @@
+uuid: e4639c20-a655-4ff5-9798-fd659fc14ca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.custom-menu
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap5
+id: bootstrap5_custommenu
+theme: bootstrap5
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:custom-menu'
+settings:
+  id: 'system_menu_block:custom-menu'
+  label: 'Custom menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator
+      hr: hr
+      employee: employee

@@ -1,0 +1,8 @@
+uuid: bdd78b7a-de88-4b31-8957-7da68138c340
+langcode: en
+status: true
+dependencies: {  }
+id: custom-menu
+label: 'Custom menu'
+description: ''
+locked: false
